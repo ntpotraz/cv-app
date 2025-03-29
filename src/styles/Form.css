@@ -1,0 +1,38 @@
+:root, *, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.cvForm, .cvLabel  {
+  display: flex;
+  flex-direction: column;
+}
+
+form > div, .cvLabel {
+  flex: 1;
+  min-width: 0;
+}
+
+.cvForm {
+  padding: 15px;
+  gap: 5px;
+  width: 100%;
+}
+
+.cvInput {
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  padding: 0.4rem 0.5rem;
+  outline: none;
+  width: 100%;
+}
+
+.cvInput:focus {
+  border: 2px solid hsl(200, 70%, 50%);
+}
+
+form > div {
+  display: flex;
+  gap: 10px;
+}
+
+

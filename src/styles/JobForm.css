@@ -1,0 +1,93 @@
+.job, .newJobBtn {
+  margin: 0 20px;
+}
+
+.newJobBtn {
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid lightgray;
+  transition: transform ease-out 250ms, background-color linear 500ms;
+  padding: 10px;
+}
+
+.formBtnDiv {
+  display: flex;
+  gap: 2rem;
+  padding: 0 15px;
+  padding-bottom: 15px;
+}
+
+.formBtn {
+  flex: 1;
+  min-width: 10px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight:bold;
+  font-size: 1.2rem;
+  color: #fff;
+  transition: transform ease-out 200ms;
+}
+
+.addJob {
+  background-color: hsl(200, 80%, 70%);
+}
+
+.cancelJob {
+  background-color: hsl(0, 80%, 80%);
+}
+
+.newJobBtn:hover, .formBtn:hover, .job:hover {
+  transform: scale(1.1);
+}
+
+.newJobBtn:hover {
+  background-color: hsl(200, 70%, 80%);
+}
+
+@keyframes appear {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+.appearAnimation {
+  animation: 0.5s ease-out 1 appear;
+}
+
+.responsibilities {
+  resize: none;
+}
+
+.jobs {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+}
+
+.job {
+  padding: 3px;
+  border: solid 2px hsl(100, 50%, 70%);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  transition: transform ease-out 100ms, background-color linear 500ms;
+}
+
+.compName {
+  font-size: 0.8rem;
+}
+
+.pos {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.disableJob {
+  border-color: red;
+}

@@ -1,0 +1,53 @@
+.cvPreview {
+  background-color: white;
+  width: 600px;
+  aspect-ratio: 1/1.414;
+  font-size: 14px;
+  padding: 2em 4em;
+  box-shadow: hsl(0, 0%, 80%) 5px 5px 10px 4px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+}
+ 
+.contact > span {
+  font-size: 1.2em;
+}
+
+.education > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sectionHeading, .unit {
+  margin: 0;
+}
+
+.unit, .info {
+  margin-left: 10px;
+}
+
+.sectionHeading {
+  color: hsl(200, 50%, 30%);
+  margin-top: 1em;
+}
+
+.unit {
+  color: hsl(200, 50%, 50%);
+  font-size: 1.1em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.workDates {
+  font-size: 0.8em;
+}

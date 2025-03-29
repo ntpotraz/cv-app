@@ -1,0 +1,31 @@
+  *, *::after, *::before {
+    box-sizing: border-box;
+  }
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.cvApp {
+  display: flex;
+  flex-flow: row wrap;
+  height: 100vh;
+}
+
+.formCol {
+  flex: 2;
+  background-color: hsl(215, 50%, 23%);
+}
+
+.preview {
+  flex: 3;
+  min-width: 60vw;
+  background-color: hsl(105, 55%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+

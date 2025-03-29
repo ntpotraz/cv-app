@@ -1,0 +1,41 @@
+.card {
+  margin: auto;
+  margin-top: 30px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: hsl(215, 40%, 20%) 0 5px 10px 4px;
+  overflow: hidden;
+}
+
+.cardHeader {
+  height: 4rem;
+  background-color: hsl(203, 39%, 44%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 0.3ch;
+  color: hsl(105, 55%, 96%);
+  padding: 0 1rem;
+}
+
+svg {
+  transition: transform ease-in-out 200ms;
+}
+
+.uncollapse {
+  transform: rotate(0.5turn);
+}
+
+.cardContentDiv {
+  display: flex;
+  justify-content: center;
+  transition: max-height ease-out 500ms;
+  max-height: 500px;
+  background-color: white;
+}
+
+.collapse {
+  max-height: 0 !important;
+}
