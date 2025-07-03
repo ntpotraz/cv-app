@@ -1,8 +1,14 @@
-# React + Vite
+# CV Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A CV Builder for building and Previewing your CV live. Built using React
 
-Currently, two official plugins are available:
+```
+https://cv.cadlabs.uk
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Purpose
+- Honing my skills in React
+- Setting up a live website using Cloudflare Pages
+- Linking the site to my own domain for a custom address
+- Simplifying the process of creating a CV, that's accessable anywhere, on any device
+- Allowing for the user to see the CV updated in real time rather than after everything is completed
