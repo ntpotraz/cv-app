@@ -2,9 +2,8 @@
 
 A CV Builder for building and Previewing your CV live. Built using React
 
-```
-https://cv.cadlabs.uk
-```
+## Webpage
+[CV App](https://cv.cadlabs.uk)
 
 ## Purpose
 - Honing my skills in React
